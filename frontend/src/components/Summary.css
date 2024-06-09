@@ -1,0 +1,35 @@
+/* Summary.css */
+/* Summary.css */
+.summary-container {
+    padding-top: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .summary-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333; /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  .summary-data {
+    text-align: center; /* Center text */
+  }
+  
+  
+  .summary-data p {
+    margin-bottom: 10px;
+  }
+  
+  .activity-count {
+    color: #ff6347; /* Red color for activity count */
+  }
+  
+  .author-count {
+    color: #228b22; /* Green color for author count */
+  }
+  

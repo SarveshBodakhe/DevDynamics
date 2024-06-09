@@ -1,0 +1,19 @@
+/* Navbar.css */
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-container {
+    background-color: #336546; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

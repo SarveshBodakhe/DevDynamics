@@ -1,0 +1,41 @@
+/* Chart.css */
+.chart-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the chart horizontally */
+    align-items: center; /* Center the chart vertically */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .chart-content {
+    background-color: rgb(10, 70, 65);
+    width: 800px; /* Adjust the width as needed */
+  }
+  
+  .chart-title {
+    color: white; /* Dark text color */
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .recharts-cartesian-axis-tick {
+    fill:White; /* Axis tick color */
+  }
+  
+  .recharts-tooltip {
+    background-color: rgba(255, 255, 255, 0.9); /* Tooltip background color */
+    border: 1px solid #a57575; /* Tooltip border color */
+    color: #951e1e; /* Tooltip text color */
+  }
+  
+  .recharts-legend-item {
+    cursor: pointer; /* Change cursor to pointer on legend items */
+  }
+  
+  .recharts-legend-item-text {
+    fill: #333333; /* Legend text color */
+  }
+  
